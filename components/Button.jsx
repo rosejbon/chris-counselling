@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
 
 const Button = ({ variant = "primary", ...props }) => (
-  <button
+  <a
     {...props}
     sx={{
       appearance: "none",
