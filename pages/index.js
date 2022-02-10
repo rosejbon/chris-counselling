@@ -20,7 +20,7 @@ export default function Home(props) {
 
       <Layout>
         <Section
-          img={"/../public/person.jpg"}
+          img={"/norwich-at-night.jpg"}
           position={"left"}
           alt={"Image of person"}
         >
@@ -29,9 +29,11 @@ export default function Home(props) {
             in active voice.
           </Text>
         </Section>
-        <Button>Book a session</Button>
+
+        <Button href="counselling">Book a session</Button>
+
         <Section
-          img={"/../public/norwich-market.jpg"}
+          img={"/norwich-at-night.jpg"}
           position={"right"}
           alt={"Image of Norwich"}
         >
@@ -48,7 +50,7 @@ export default function Home(props) {
           </Box>
         </Section>
         <Section
-          img={"/../public/norwich-at-night.jpg"}
+          img={"/norwich-at-night.jpg"}
           position={"left"}
           alt={"Image of Norwich"}
         >
