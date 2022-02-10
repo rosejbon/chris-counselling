@@ -1,4 +1,4 @@
-import { Text, Flex, NavLink } from "theme-ui";
+import { Text, Flex, NavLink, Link } from "theme-ui";
 
 export const Header = () => (
   <Flex
@@ -17,15 +17,20 @@ export const Header = () => (
       }}
     >
       {/* TO DO: Make H1, make an image and clickable */}
-      <Text
-        sx={{
-          fontSize: 4,
-          fontWeight: "bold",
-        }}
-      >
-        Chris T Davis
-      </Text>
-      <Text>COUNSELLING</Text>
+      <Link variant="home" href="/">
+        <Text
+          as="h1"
+          sx={{
+            fontSize: 4,
+            fontWeight: "bold",
+            textDecoration: "none",
+            color: "primary",
+          }}
+        >
+          Chris Davis
+        </Text>
+        <Text>COUNSELLING</Text>
+      </Link>
     </Flex>
     <Flex
       as="nav"
