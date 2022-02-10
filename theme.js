@@ -19,18 +19,19 @@ export const theme = {
   },
   colors: {
     text: "#000",
-    background: "#F3F3F0",
-    primary: "#07c",
-    secondary: "#30c",
+    background: "#fff",
+    primary: "#AD3D11",
+    secondary: "#494F7A",
     muted: "#f6f6f6",
-  },
-  letterSpacing: {
-    heading: "0.2em",
   },
   buttons: {
     primary: {
       color: "background",
       bg: "primary",
+      fontFamily: "body",
+      "&:hover": {
+        bg: "secondary",
+      },
     },
     secondary: {
       color: "background",
@@ -51,104 +52,15 @@ export const theme = {
       textTransform: "uppercase",
       letterSpacing: "0.2em",
     },
-    heading: {
-      fontFamily: "heading",
-      fontWeight: "heading",
-      lineHeight: "heading",
-      letterSpacing: "heading",
-    },
   },
   links: {
+    home: {
+      textDecoration: "none",
+    },
     nav: {
       textTransform: "uppercase",
       letterSpacing: "0.1em",
       fontFamily: "body",
-    },
-  },
-  styles: {
-    root: {
-      fontFamily: "body",
-      lineHeight: "body",
-      fontWeight: "body",
-    },
-    h1: {
-      color: "text",
-      fontFamily: "heading",
-      lineHeight: "heading",
-      fontWeight: "heading",
-      fontSize: 5,
-    },
-    h2: {
-      color: "text",
-      fontFamily: "heading",
-      lineHeight: "heading",
-      fontWeight: "heading",
-      fontSize: 4,
-    },
-    h3: {
-      color: "text",
-      fontFamily: "heading",
-      lineHeight: "heading",
-      fontWeight: "heading",
-      fontSize: 3,
-    },
-    h4: {
-      color: "text",
-      fontFamily: "heading",
-      lineHeight: "heading",
-      fontWeight: "heading",
-      fontSize: 2,
-    },
-    h5: {
-      color: "text",
-      fontFamily: "heading",
-      lineHeight: "heading",
-      fontWeight: "heading",
-      fontSize: 1,
-    },
-    h6: {
-      color: "text",
-      fontFamily: "heading",
-      lineHeight: "heading",
-      fontWeight: "heading",
-      fontSize: 0,
-    },
-    p: {
-      color: "text",
-      fontFamily: "body",
-      fontWeight: "body",
-      lineHeight: "body",
-    },
-    a: {
-      color: "primary",
-      fontFamily: "body",
-    },
-    pre: {
-      fontFamily: "monospace",
-      overflowX: "auto",
-      code: {
-        color: "inherit",
-      },
-    },
-    code: {
-      fontFamily: "monospace",
-      fontSize: "inherit",
-    },
-    table: {
-      width: "100%",
-      borderCollapse: "separate",
-      borderSpacing: 0,
-    },
-    th: {
-      textAlign: "left",
-      borderBottomStyle: "solid",
-    },
-    td: {
-      textAlign: "left",
-      borderBottomStyle: "solid",
-    },
-    img: {
-      maxWidth: "100%",
     },
   },
 };
