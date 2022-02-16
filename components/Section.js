@@ -35,8 +35,7 @@ export const Section = ({ children, img, position, alt }) => {
             marginRight={[3, 0, 0]}
             marginTop={[-5, 0, 0]}
             sx={{
-              boxShadow: "2px 2px 5px grey",
-              borderRadius: 3,
+              borderRadius: "5px",
               zIndex: 1,
             }}
           >
@@ -52,8 +51,7 @@ export const Section = ({ children, img, position, alt }) => {
             marginRight={[3, -3, -3]}
             marginTop={[-5, 0, 0]}
             sx={{
-              boxShadow: "2px 2px 5px grey",
-              borderRadius: 3,
+              borderRadius: "5px",
               zIndex: "1",
             }}
           >

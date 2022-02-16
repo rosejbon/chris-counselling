@@ -16,7 +16,6 @@ export const Header = () => (
         width: "100%",
       }}
     >
-      {/* TO DO: Make H1, make an image and clickable */}
       <Link variant="home" href="/">
         <Text
           as="h1"
@@ -25,11 +24,12 @@ export const Header = () => (
             fontWeight: "bold",
             textDecoration: "none",
             color: "primary",
+            fontFamily: "heading",
           }}
         >
-          Chris Davis
+          Chris Davis <br />
+          <Text sx={{ fontFamily: "heading" }}>COUNSELLING</Text>
         </Text>
-        <Text>COUNSELLING</Text>
       </Link>
     </Flex>
     <Flex
@@ -39,7 +39,7 @@ export const Header = () => (
         width: "100%",
         justifyContent: ["space-between", "space-between", []],
         flexDirection: "column",
-        "@media screen and (min-width: 25em)": {
+        "@media screen and (min-width: 22em)": {
           flexDirection: "row",
         },
       }}
@@ -50,8 +50,8 @@ export const Header = () => (
       <NavLink href="supervision" pt={2}>
         Supervision
       </NavLink>
-      <NavLink href="about" pt={2}>
-        About
+      <NavLink href="contact" pt={2}>
+        Contact
       </NavLink>
     </Flex>
   </Flex>

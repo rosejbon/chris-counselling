@@ -30,7 +30,7 @@ export default function Home(props) {
           </Text>
         </Section>
 
-        <Button href="counselling">Book a session</Button>
+        <Button href="contact">Book a session</Button>
 
         <Section
           img={"/norwich-at-night.jpg"}
@@ -40,11 +40,14 @@ export default function Home(props) {
           <Box p={3}>
             <section>
               <Stack>
-                <Heading as="h2">Counselling</Heading>
+                <Heading as="h2" variant="heading">
+                  Counselling
+                </Heading>
                 <Text as="p" sx={{ fontSize: 2 }}>
                   A short sentence or two on what you can do for them. This
                   should be in active voice.
                 </Text>
+                <Button href="counselling">Find out more</Button>
               </Stack>
             </section>
           </Box>
@@ -57,12 +60,14 @@ export default function Home(props) {
           <Box p={3}>
             <section>
               <Stack>
-                <Heading as="h2">Supervision</Heading>
+                <Heading as="h2" variant="heading">
+                  Supervision
+                </Heading>
                 <Text sx={{ fontSize: 2 }}>
                   A short sentence or two on what you can do for them. This
                   should be in active voice.
                 </Text>
-                <Button>Find out more</Button>
+                <Button href="supervision">Find out more</Button>
               </Stack>
             </section>
           </Box>

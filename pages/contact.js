@@ -1,9 +1,9 @@
 import { Layout } from "../components/Layout";
 
-const About = () => (
+const Contact = () => (
   <Layout>
     <p>Some info about you</p>
   </Layout>
 );
 
-export default About;
+export default Contact;
