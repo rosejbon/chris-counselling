@@ -2,7 +2,7 @@ import { Box, Text, Link, Flex } from "@theme-ui/components";
 import { Stack } from "./Stack";
 
 export const Footer = () => (
-  <Box mt={4} bg="white">
+  <Box bg="white">
     <Box
       sx={{
         margin: "auto",
