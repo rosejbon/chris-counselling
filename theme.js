@@ -16,24 +16,20 @@ export const theme = {
     heading: 1.125,
   },
   colors: {
-    text: "#1A1810",
-    background: "#e4f6f2",
-    primary: "#AD3D11",
-    secondary: "#494F7A",
-    muted: "#f6f6f6",
+    offblack: "#1A1810",
+    offwhite: "#f4f4f4",
+    white: "#ffffff",
+    burntorange: "#AD3D11",
+    blue: "#494F7A",
   },
   buttons: {
     primary: {
-      color: "background",
-      bg: "primary",
+      color: "white",
+      bg: "burntorange",
       fontFamily: "body",
       "&:hover": {
-        bg: "secondary",
+        bg: "blue",
       },
-    },
-    secondary: {
-      color: "background",
-      bg: "secondary",
     },
   },
   text: {
@@ -64,12 +60,12 @@ export const theme = {
       fontFamily: "heading",
       fontSize: [1, 2],
       "&:hover": {
-        color: "secondary",
+        color: "blue",
       },
     },
     bold: {
       fontWeight: "bold",
-      color: "secondary",
+      color: "blue",
       fontFamily: "body",
     },
   },
