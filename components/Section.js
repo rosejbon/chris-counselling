@@ -31,7 +31,7 @@ export const Section = ({ children, img, position, alt }) => {
           </Box>
           <Flex
             bg="white"
-            marginLeft={[3, -3, -3]}
+            marginLeft={[3, -5, -5]}
             marginRight={[3, 0, 0]}
             marginTop={[-5, 0, 0]}
             sx={{
@@ -48,7 +48,7 @@ export const Section = ({ children, img, position, alt }) => {
           <Flex
             bg="white"
             marginLeft={[3, 0, 0]}
-            marginRight={[3, -3, -3]}
+            marginRight={[3, -5, -5]}
             marginTop={[-5, 0, 0]}
             sx={{
               borderRadius: "5px",

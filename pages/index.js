@@ -39,7 +39,7 @@ export default function Home(props) {
         >
           <Box p={3}>
             <section>
-              <Stack>
+              <Stack gap={3}>
                 <Heading as="h2" variant="heading">
                   Counselling
                 </Heading>
@@ -59,7 +59,7 @@ export default function Home(props) {
         >
           <Box p={3}>
             <section>
-              <Stack>
+              <Stack gap={3}>
                 <Heading as="h2" variant="heading">
                   Supervision
                 </Heading>
