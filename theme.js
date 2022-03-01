@@ -17,7 +17,7 @@ export const theme = {
   },
   colors: {
     offblack: "#1A1810",
-    offwhite: "#f4f4f4",
+    offwhite: "#f7f1ed",
     white: "#ffffff",
     burntorange: "#AD3D11",
     blue: "#494F7A",
