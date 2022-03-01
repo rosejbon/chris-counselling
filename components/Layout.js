@@ -19,7 +19,6 @@ export const Layout = ({ children }) => {
       </Box>
       <Flex
         bg="offwhite"
-        py={2}
         sx={{
           flexDirection: "column",
           justifyContent: "space-between",
@@ -39,7 +38,9 @@ export const Layout = ({ children }) => {
             </main>
           </Box>
         </Box>
-        <Footer />
+        <Box sx={{ borderTop: "solid", borderColor: "blue" }}>
+          <Footer />
+        </Box>
       </Flex>
     </>
   );
