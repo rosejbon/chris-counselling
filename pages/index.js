@@ -24,13 +24,20 @@ export default function Home(props) {
           position={"left"}
           alt={"Image of person"}
         >
-          <Text p={3}>
-            A short sentence or two on what you can do for them. This should be
-            in active voice.
-          </Text>
+          <Box p={3}>
+            <section>
+              <Stack gap={3}>
+                <Text as="p" sx={{ fontSize: 3 }}>
+                  I am a professionally accredited counsellor based in Norwich
+                  with seven years&#x27; experience. As well as providing
+                  counselling for individuals I also provide supervision
+                  professional counsellors.
+                </Text>
+                {/* <Button href="contact">Book a session</Button> */}
+              </Stack>
+            </section>
+          </Box>
         </Section>
-
-        <Button href="contact">Book a session</Button>
 
         <Section
           img={"/norwich-at-night.jpg"}
@@ -44,10 +51,12 @@ export default function Home(props) {
                   Counselling
                 </Heading>
                 <Text as="p" sx={{ fontSize: 2 }}>
-                  A short sentence or two on what you can do for them. This
-                  should be in active voice.
+                  I offer one-to-one, open-ended counselling in person and
+                  online.
                 </Text>
-                <Button href="counselling">Find out more</Button>
+                <Button href="counselling">
+                  Find out about how I can help you
+                </Button>
               </Stack>
             </section>
           </Box>
@@ -63,11 +72,12 @@ export default function Home(props) {
                 <Heading as="h2" variant="heading">
                   Supervision
                 </Heading>
-                <Text sx={{ fontSize: 2 }}>
-                  A short sentence or two on what you can do for them. This
-                  should be in active voice.
+                <Text as="p" sx={{ fontSize: 2 }}>
+                  I provide one-to-one supervision for qualified counsellors.
                 </Text>
-                <Button href="supervision">Find out more</Button>
+                <Button href="supervision">
+                  Learn about my supervision process
+                </Button>
               </Stack>
             </section>
           </Box>

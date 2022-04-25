@@ -37,6 +37,7 @@ export const Section = ({ children, img, position, alt }) => {
             sx={{
               borderRadius: "5px",
               zIndex: 1,
+              maxWidth: ["100%", "100%", "50%"],
             }}
           >
             {children}
@@ -53,6 +54,7 @@ export const Section = ({ children, img, position, alt }) => {
             sx={{
               borderRadius: "5px",
               zIndex: "1",
+              maxWidth: ["100%", "100%", "50%"],
             }}
           >
             {children}

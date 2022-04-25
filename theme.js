@@ -69,4 +69,14 @@ export const theme = {
       fontFamily: "body",
     },
   },
+  alerts: {
+    primary: {
+      color: "offWhite",
+      bg: "blue",
+    },
+    error: {
+      color: "offWhite",
+      bg: "burntorange",
+    },
+  },
 };

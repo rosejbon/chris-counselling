@@ -30,7 +30,7 @@ export const Layout = ({ children }) => {
             sx={{
               margin: "auto",
               maxWidth: "900px",
-              padding: "1rem",
+              padding: 4,
             }}
           >
             <main>
@@ -38,7 +38,7 @@ export const Layout = ({ children }) => {
             </main>
           </Box>
         </Box>
-        <Box sx={{ borderTop: "solid", borderColor: "blue" }}>
+        <Box bg="white" sx={{ borderTop: "solid", borderColor: "blue" }}>
           <Footer />
         </Box>
       </Flex>

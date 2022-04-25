@@ -1,7 +1,9 @@
 /** @jsxImportSource theme-ui */
+import { Box } from "theme-ui";
 
 const Button = ({ variant = "primary", ...props }) => (
-  <a
+  <Box
+    as="a"
     {...props}
     sx={{
       appearance: "none",
