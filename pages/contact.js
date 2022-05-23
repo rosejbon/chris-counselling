@@ -35,12 +35,16 @@ const Contact = () => {
               </Text>
               <address>
                 <Stack gap={3}>
-                  <Link variant="bold" pt={2} href="mailto:jim@rock.com">
-                    email@email.com
+                  <Link
+                    variant="bold"
+                    pt={2}
+                    href="mailto:chris@cdaviscounselling.co.uk"
+                  >
+                    chris@cdaviscounselling.co.uk
                   </Link>
 
-                  <Link variant="bold" href="tel:+123456789">
-                    01234 56789
+                  <Link variant="bold" href="tel:+447458985302">
+                    07458 985302
                   </Link>
                 </Stack>
               </address>
