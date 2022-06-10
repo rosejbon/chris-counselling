@@ -30,7 +30,7 @@ export default function Home(props) {
                 <Text as="p" sx={{ fontSize: 3 }}>
                   I am a professionally accredited counsellor based in Norwich
                   with seven years&#x27; experience. As well as providing
-                  counselling for individuals I also provide supervision
+                  counselling for individuals I also provide supervision for
                   professional counsellors.
                 </Text>
                 {/* <Button href="contact">Book a session</Button> */}
