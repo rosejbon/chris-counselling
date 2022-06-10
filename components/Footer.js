@@ -13,7 +13,7 @@ export const Footer = () => (
         margin: "auto",
         padding: "1rem",
         alignItems: "centre",
-        "@media screen and (min-width: 22em)": {
+        "@media screen and (min-width: 30em)": {
           flexDirection: "row",
         },
       }}
