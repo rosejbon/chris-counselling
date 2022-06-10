@@ -20,9 +20,9 @@ export default function Home(props) {
 
       <Layout>
         <Section
-          img={"/norwich-at-night.jpg"}
+          img={"/chris.jpg"}
           position={"left"}
-          alt={"Image of person"}
+          alt={"photograph of Chris Davis."}
         >
           <Box p={3}>
             <section>
@@ -42,7 +42,7 @@ export default function Home(props) {
         <Section
           img={"/norwich-at-night.jpg"}
           position={"right"}
-          alt={"Image of Norwich"}
+          alt={"Photograph of Norwich at night."}
         >
           <Box p={3}>
             <section>
@@ -62,9 +62,9 @@ export default function Home(props) {
           </Box>
         </Section>
         <Section
-          img={"/norwich-at-night.jpg"}
+          img={"/norwich.jpg"}
           position={"left"}
-          alt={"Image of Norwich"}
+          alt={"Photograph of Norwich in spring time."}
         >
           <Box p={3}>
             <section>

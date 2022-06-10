@@ -24,8 +24,8 @@ export const Section = ({ children, img, position, alt }) => {
             <Image
               src={img}
               layout="responsive"
-              width={550}
-              height={360}
+              width={400}
+              height={300}
               alt={alt}
             />
           </Box>
@@ -67,8 +67,8 @@ export const Section = ({ children, img, position, alt }) => {
             <Image
               src={img}
               layout="responsive"
-              width={550}
-              height={360}
+              width={400}
+              height={300}
               alt={alt}
             />
           </Box>
