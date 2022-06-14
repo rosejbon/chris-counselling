@@ -28,7 +28,7 @@ export const Footer = () => (
             chris@cdaviscounselling.co.uk
           </Link>
 
-          <Link variant="bold" href="tel:tel:+4474589853029">
+          <Link variant="bold" href="tel:+4474589853029">
             07458 985302
           </Link>
         </Stack>
