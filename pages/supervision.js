@@ -70,10 +70,10 @@ const Supervision = () => (
             </Text>
             <Box as="ul" pl={3}>
               <Text as="li" pb={2} sx={{ fontSize: 2 }}>
-                Face to face - Norwich City centre
+                Face to face in Norwich city centre at the Practice Rooms
               </Text>
               <Text as="li" pb={2} sx={{ fontSize: 2 }}>
-                Online - over Zoom
+                Online
               </Text>
             </Box>
             <Text as="p" sx={{ fontSize: 2 }}>

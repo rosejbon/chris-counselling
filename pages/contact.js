@@ -33,6 +33,10 @@ const Contact = () => {
                 If you would like to know more or book an appointment get in
                 touch.
               </Text>
+              <Text as="p" sx={{ fontSize: 2 }}>
+                I offer a free 15-30 minute telephone conversation to discuss
+                whether I may be of help to you.
+              </Text>
               <address>
                 <Stack gap={3}>
                   <Link

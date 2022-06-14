@@ -16,8 +16,8 @@ const Counselling = () => (
           <Stack gap={3}>
             <Heading>Counselling with me</Heading>
             <Text as="p" sx={{ fontSize: 2 }}>
-              Some people find it helpful to talk about what they are thinking
-              and feeling to someone outside their situation. As a counsellor it
+              Some people find it helpful to talk through their difficulties
+              with someone who is outside of their situation. As a counsellor it
               is my role to be that person.
             </Text>
             <Text as="p" sx={{ fontSize: 2 }}>
@@ -54,19 +54,18 @@ const Counselling = () => (
             <Heading>My experience</Heading>
             <Text as="p" sx={{ fontSize: 2 }}>
               Before providing private counselling I worked for over 7 years as
-              a counsellor in the NHS. And before this I spent 7 years in
-              voluntary befriending and counselling services.
+              a counsellor in the NHS and with Mind. And before this I spent 7
+              years in voluntary befriending and counselling services.
             </Text>
             <Text as="p" sx={{ fontSize: 2 }}>
               As well as providing counselling for individuals I also provide
-              supervision to professional counsellors. Helping other therapists
-              to keep their skills up to date and make sure that they work in a
-              safe and ethical way.
+              supervision to professional counsellors. This entails helping
+              counsellors continually develop and reflect on their practice to
+              ensure they work in a safe and ethical way.
             </Text>
             <Text as="p" sx={{ fontSize: 2 }}>
-              I am accredited member of the British Association of Counselling
-              Practitioners. And also have I Psychology degree from Newcastle
-              university.
+              I am an accredited member of the British Association of
+              Counselling and Psychotherapy (BACP).
             </Text>
             <Heading as="h3" sx={{ fontSize: 3 }}>
               Qualifications
@@ -103,10 +102,10 @@ const Counselling = () => (
             </Text>
             <Box as="ul" pl={3}>
               <Text as="li" pb={2} sx={{ fontSize: 2 }}>
-                Face to face - Norwich City centre
+                Face to face in Norwich city centre at the Practice Rooms
               </Text>
               <Text as="li" pb={2} sx={{ fontSize: 2 }}>
-                Online - over Zoom
+                Online
               </Text>
             </Box>
             <Text as="p" sx={{ fontSize: 2 }}>

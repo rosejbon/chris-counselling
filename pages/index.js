@@ -9,7 +9,7 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>C T Davis Counselling</title>
+        <title>Chris Davis Counselling</title>
         <meta
           name="description"
           content="Christopher Davis counselling and supervision"
