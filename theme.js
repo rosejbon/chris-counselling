@@ -35,8 +35,9 @@ export const theme = {
   text: {
     default: {
       color: "text",
-      fontSize: 3,
+      fontSize: 2,
       fontFamily: "body",
+      lineHeight: "body",
     },
     caps: {
       textTransform: "uppercase",
