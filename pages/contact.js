@@ -4,16 +4,6 @@ import { Layout } from "../components/Layout";
 import { Stack } from "../components/Stack";
 import { Box, Flex, Heading, Text, Link } from "theme-ui";
 
-const containerStyle = {
-  width: "100%",
-  height: "400px",
-};
-
-const center = {
-  lat: -3.745,
-  lng: -38.523,
-};
-
 const Contact = () => {
   const google = `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJuUQs0ODj2UcR2yBmYhkI04M&key=${process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY}`;
 
@@ -25,7 +15,11 @@ const Contact = () => {
             as="section"
             bg="white"
             padding={4}
-            sx={{ maxWidth: 560, borderRadius: "5px" }}
+            sx={{
+              maxWidth: 560,
+              borderRadius: "5px",
+              boxShadow: "0px 0px 7px 1px rgb(0 0 0 / 27%)",
+            }}
           >
             <Stack gap={3}>
               <Heading>Get in touch</Heading>
@@ -58,7 +52,11 @@ const Contact = () => {
             as="section"
             bg="white"
             padding={4}
-            sx={{ maxWidth: 560, borderRadius: "5px" }}
+            sx={{
+              maxWidth: 560,
+              borderRadius: "5px",
+              boxShadow: "0px 0px 7px 1px rgb(0 0 0 / 27%)",
+            }}
           >
             <Stack gap={4}>
               <Heading>Where I am based</Heading>
