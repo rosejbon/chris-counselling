@@ -2,7 +2,7 @@ import { Text, Flex, NavLink, Link, Box } from "theme-ui";
 import { useRouter } from "next/router";
 
 export const Header = () => {
-  const currentPage = useRouter().pathname;                                                                       
+  const currentPage = useRouter().pathname;
 
   return (
     <header>
@@ -22,21 +22,36 @@ export const Header = () => {
           }}
         >
           <Link variant="home" href="/">
-            <Text
+            <Flex
               as="h1"
               sx={{
-                fontSize: 4,
-                fontWeight: "bold",
-                textDecoration: "none",
-                color: "offblack",
-                fontFamily: "heading",
+                flexDirection: "column",
               }}
             >
-              Chris Davis <br />
-              <Text sx={{ fontFamily: "heading", color: "burntorange" }}>
-                COUNSELLING
+              <Text
+                sx={{
+                  fontSize: 4,
+                  fontWeight: "bold",
+                  textDecoration: "none",
+                  color: "offblack",
+                  fontFamily: "heading",
+                  lineHeight: 1,
+                }}
+              >
+                Chris Davis
               </Text>
-            </Text>
+              <Text
+                sx={{
+                  fontFamily: "heading",
+                  color: "burntorange",
+                  fontWeight: "bold",
+                  lineHeight: 1,
+                  textTransform: "uppercase",
+                }}
+              >
+                counselling
+              </Text>
+            </Flex>
           </Link>
         </Flex>
         <Flex
